@@ -1,0 +1,12 @@
+package Day3;
+
+public class Hari3 {
+    public static void main(String[] args) {
+        String nama = "John";
+        
+        Integer angka = 42;
+        
+        Double nilai = 3.14;
+    }
+    
+}
