@@ -1,0 +1,30 @@
+package Day3;
+
+public class Day6 {
+    public static void main(String[] args) {
+        //penjumlahan
+        int x = 10;
+        int y = 4;
+        int hasil;
+        
+        hasil = x+y;
+        System.out.println(x + "+" + y + "=" +hasil);
+        
+        //perkalian
+        hasil = x*y;
+        System.out.println(x + "*" + y + "=" +hasil);
+        
+        //pengurangan
+        hasil = x-y;
+        System.out.println(x + "-" + y + "=" +hasil);
+        
+        //pembagian
+        hasil = x/y;
+        System.out.println(x + "/" + y + "=" +hasil);
+        
+        //modulus
+        hasil = x%y;
+        System.out.println(x + "%" + y + "=" +hasil);
+        
+    }
+}
