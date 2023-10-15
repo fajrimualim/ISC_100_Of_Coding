@@ -1,0 +1,24 @@
+int x;
+        int y;
+        int hasil;
+        
+        x = 35;
+        y = 6;
+        
+        
+        hasil = x += y;
+        System.out.println(hasil);
+        
+        hasil = x -= y;
+        System.out.println(hasil);
+        
+        hasil = x *= y;
+        System.out.println(hasil);
+        
+        hasil = x /= y;
+        System.out.println(hasil);
+        
+        hasil = x %= y;
+        System.out.println(hasil);
+    }
+}
