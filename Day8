@@ -1,0 +1,51 @@
+
+package Day3;
+
+public class Day8 {
+    public static void main(String[] args) {
+        int x = 20;
+        int y = 5;
+        boolean hasil;
+        
+        hasil = x == y;
+        System.out.println(hasil);
+        
+        int w = 10;
+        int z = 4;
+        boolean hasil1;
+        
+        hasil1 = w != z;
+        System.out.println(hasil1);
+        
+        int c = 11;
+        int d = 3;
+        boolean hasil2;
+        
+        hasil2 = c > d;
+        System.out.println(hasil2);
+        
+        int f = 30;
+        int g = 10;
+        boolean hasil3;
+        
+        hasil3 = f >= g;
+        System.out.println(hasil3);
+        
+        int h = 24;
+        int i = 15;
+        boolean hasil4;
+        
+        hasil4 = h < i;
+        System.out.println(hasil4);
+        
+        int q = 15;
+        int l = 7;
+        boolean hasil5;
+        
+        hasil5 = q <= l;
+        System.out.println(hasil5);
+        
+        
+    }
+    
+}
