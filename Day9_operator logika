@@ -1,0 +1,25 @@
+package fajri;
+
+public class Day9 {
+    public static void main(String[] args) {
+        boolean a = true;
+        boolean b = false;
+        
+        
+        boolean hasilAnd = a && b;
+        System.out.println("a && b: " + hasilAnd);
+        
+        
+        boolean hasil0r = a || b;
+        System.out.println("a || b: " +hasil0r);
+        
+        
+        boolean hasilNotA = !a;
+        System.out.println("!a: " + hasilNotA);
+        
+        
+        boolean hasilNotB = !b;
+        System.out.println("!b: " + hasilNotB);
+    }
+    
+}
