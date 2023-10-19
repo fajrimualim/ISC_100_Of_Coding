@@ -1,0 +1,40 @@
+package Day3;
+
+import java.util.Scanner;
+
+public class Day11 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Masukkan operand pertama (true/false): ");
+        boolean operand1 = scanner.nextBoolean();
+        
+        System.out.print("Masukkan operand kedua (true/false): ");
+        boolean operand2 = scanner.nextBoolean();
+        
+        System.out.print("Masukkan operand logika (AND/OR/XOR): ");
+        String operator = scanner.next();
+        
+        boolean result = false;
+        
+        switch (operator) {
+            case "AND":
+                result = operand1 && operand2;
+                break;
+            case "OR":
+                result = operand1 || operand2;
+                break;
+            case "XOR":
+                result = operand1 ^ operand2;
+                break;
+            default:
+                System.out.println("Operator tidak valid.");
+                break;
+        }
+        
+        System.out.println("Hasil: " + result);
+        
+        scanner.close();
+    }
+    
+}
