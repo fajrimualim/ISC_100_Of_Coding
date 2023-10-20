@@ -1,0 +1,25 @@
+package Day3;
+
+import java.util.Scanner;
+
+public class Day12 {
+    public static void main(String[] args) {
+        Scanner aji = new Scanner(System.in);
+        
+        System.out.print("jumlah kemeja anda : ");
+        int pesanan = aji.nextInt();
+        
+        System.out.print("jumlah kotak: ");
+        int jumlahKotak = aji.nextInt();
+        
+        int kotakTerisi;
+        int sisaKotak ;
+        
+        kotakTerisi = pesanan / jumlahKotak;
+        sisaKotak = pesanan % jumlahKotak;
+        
+        System.out.println("jumlah kotak telah terisi: " + kotakTerisi);
+        System.out.println("sisa kemeja yang belum terkemas: " + sisaKotak);
+    }
+    
+}
