@@ -1,0 +1,29 @@
+package Day3;
+
+public class Day13 {
+    public static void main(String[] args) {
+        int angka1 = 10;
+        int angka2 = 5;
+        
+        //Penjumlahan
+        int hasilPenjumlahan = angka1 + angka2;
+        System.out.println("Penjumlahan: " + hasilPenjumlahan);
+        
+        //Pengurangan
+        int hasilPengurangan = angka1 - angka2;
+        System.out.println("Pengurangan: " + hasilPengurangan);
+        
+        //Perkalian
+        int hasilPerkalian = angka1 * angka2;
+        System.out.println("Perkalian: " + hasilPerkalian);
+        
+        //Pembagian
+        int hasilPembagian = angka1 / angka2;
+        System.out.println("Pembagian: " + hasilPembagian);
+        
+        //Sisa bagi (Modulus)
+        int sisaBagi = angka1 % angka2;
+        System.out.println("Sisa Bagi (Modulus): " + sisaBagi);
+    }
+    
+}
