@@ -1,0 +1,23 @@
+package Day3;
+
+import java.util.Scanner;
+
+public class Day16 {
+    public static void main(String[] args) {
+        Scanner pajee = new Scanner(System.in);
+        System.out.print("input (L/P) : ");
+        String pil = pajee.nextLine();
+        switch(pil){
+            case "L":
+                System.out.println("Laki-Laki");
+                break;
+            case "P":
+                System.out.println("Perempuan");
+                break;
+            default:
+                System.out.println("Pil Salah");
+                break;
+        }
+    }
+    
+}
