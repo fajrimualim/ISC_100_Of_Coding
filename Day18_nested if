@@ -1,0 +1,37 @@
+package Day3;
+
+import java.util.Scanner;
+
+public class Day18 {
+    public static void main(String[] args) {
+        Scanner masuk = new Scanner(System.in);
+        double harga = 0, diskon = 0;
+        int pilihan, porsi;
+        String menu = null;
+        System.out.println("---Aneka Bakso---");
+        System.out.println("1. Lokal\n2. Luar Negeri");
+        System.out.print("Pil \t: ");
+        pilihan = masuk.nextInt();
+        System.out.print("Porsi \t: ");
+        porsi = masuk.nextInt();
+        if(pilihan == 1){
+            menu = "Bakso Lokal";
+            harga = 8000;
+        } else if(pilihan == 2){
+            menu = "Bakso Luar Negeri";
+            harga = 9000;
+            if(porsi >= 10){
+                diskon = 10 * (harga * porsi)/100;
+                System.out.println("Diskon 10% - Rp."+diskon);
+            } else {
+                System.out.println("Diskon 10% min 10 Porsi");
+            }
+        }
+        System.out.println("======================");
+        System.out.println("Menu Terpilih :");
+        System.out.println(menu+" - Rp."+harga+"/porsi");
+        harga = (harga * porsi) - diskon;
+        System.out.println("Total \t: Rp. "+harga);
+    }
+    
+}
