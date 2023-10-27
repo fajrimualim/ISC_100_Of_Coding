@@ -1,0 +1,26 @@
+package Day3;
+
+import java.util.Scanner;
+
+public class Day19 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Masukkan Pilihan Hobi : ");
+        int pilihan = input.nextInt();
+        
+        switch (pilihan){
+            case 1:
+                System.out.println("Hobi Futsal");
+                break;
+            case 2:
+                System.out.println("Hobi Badminton");
+                break;
+            case 3:
+                System.out.println("Hobi Renang");
+                break;
+            default:
+                System.out.println("Masukan Pilihan Hobi Yg Benar");
+        }
+    }
+    
+}
