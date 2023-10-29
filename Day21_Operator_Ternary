@@ -1,0 +1,16 @@
+package Day3;
+
+import java.util.Scanner;
+
+public class Day21 {
+    public static void main(String[] args) {
+        Scanner aji = new Scanner(System.in);
+        
+        System.out.print("Masukkan suhu dalam Celsius: ");
+        double suhu = aji.nextDouble();
+        
+        String kuatSuhu = (suhu >= 25) ? "Cukup panas" : "Dingin";
+         System.out.println("Suhu saat ini: " + suhu+ " Celsius. Suasana saat ini: " + kuatSuhu);
+    }
+    
+}
