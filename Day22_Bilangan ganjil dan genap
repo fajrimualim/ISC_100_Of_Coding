@@ -1,0 +1,24 @@
+package Day3;
+
+import java.util.Scanner;
+
+public class Day22 {
+    public static void main(String[] args) {
+        Scanner inputScanner = new Scanner(System.in);
+        
+        System.out.print("Masukkan angka: ");
+        int angka = inputScanner.nextInt();
+        
+         if (angka % 2 == 1) {
+             angka++;
+             
+              } else {
+            angka += 2;
+            
+             System.out.println("Hasilnya adalah: " + angka);
+         }
+         
+         inputScanner.close();
+    }
+    
+}
