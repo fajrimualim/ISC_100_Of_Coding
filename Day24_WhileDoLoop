@@ -1,0 +1,14 @@
+
+package Day3;
+
+
+public class Day24 {
+    public static void main(String[] args) {
+        int a = 1;
+        
+        do {
+            System.out.println("tugas ke " + a);
+            a++;
+        } while (a <= 100);
+    }
+}
