@@ -1,1 +1,15 @@
+package Day3;
 
+import java.util.Scanner;
+
+public class Day25 {
+    public static void main(String[] args) {
+        Scanner aji = new Scanner(System.in);
+        
+        System.out.println("pertemuan rapat ");
+        
+        for (int a = 1; a <= 7; a++) {
+            System.out.println("hari ke -" + a);
+        }
+    }
+}
