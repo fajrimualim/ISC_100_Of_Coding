@@ -1,0 +1,20 @@
+package Day3;
+
+public class Day28 {
+
+    public static void main(String[] args) {
+
+        int bintang = 5;
+
+        for (int i = 1; i <= bintang; i++) {
+            for (int j = 1; j <= bintang; j++) {
+                System.out.print("*");
+
+            }
+            System.out.println("");
+
+        }
+
+    }
+
+}
