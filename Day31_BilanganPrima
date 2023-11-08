@@ -1,0 +1,26 @@
+package Day3;
+
+import java.util.Scanner;
+
+public class Day31 {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Masukkan angka : ");
+        int a = sc.nextInt();
+
+        boolean Prima = true;
+        for (int i = 2; i <= Math.sqrt(a); i++) {
+            if (a % i == 0) {
+                Prima = false;
+                break;
+            }
+        }
+
+        if (Prima) {
+            System.out.println(a + " adalah bilangan prima.");
+        } else {
+            System.out.println(a + " bukan bilangan prima.");
+        }
+    }
+}
