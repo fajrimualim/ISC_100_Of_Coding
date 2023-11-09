@@ -1,0 +1,11 @@
+
+package Day3;
+
+public class Day32 {
+    public static void main(String[] args) {
+        int[]angka = {1,2,3,4,5,6,7,8,9,10};
+        int panjangArray = angka.length;
+        System.out.println(angka[panjangArray]);
+    }
+    
+}
