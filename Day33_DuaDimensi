@@ -1,0 +1,17 @@
+package Day3;
+
+public class Day33 {
+
+    public static void main(String[] args) {
+
+        int[][] array2D = {
+            {1, 2, 3},
+            {4, 5, 6},
+            {7, 8, 9}
+        };
+
+        System.out.println("Elemen pada baris 1, kolom 2: " + array2D[0][1]);
+        System.out.println("Elemen pada baris 2, kolom 3: " + array2D[1][2]);
+        System.out.println("Elemen pada baris 3, kolom 1: " + array2D[2][0]);
+    }
+}
