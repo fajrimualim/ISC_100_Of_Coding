@@ -1,0 +1,33 @@
+package Day3;
+
+import java.util.Scanner;
+
+public class Day36 {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Masukkan jumlah baris: ");
+        int baris = sc.nextInt();
+
+        System.out.print("Masukkan jumlah kolom: ");
+        int kolom = sc.nextInt();
+
+        int[][] array2D = new int[baris][kolom];
+        int nilai = 1;
+
+        for (int i = 0; i < baris; i++) {
+            for (int j = 0; j < kolom; j++) {
+                array2D[i][j] = nilai++;
+            }
+        }
+
+        for (int i = 0; i < baris; i++) {
+            for (int j = 0; j < kolom; j++) {
+                System.out.print(array2D[i][j] + (" "));
+            }
+            System.out.println();
+        }
+    }
+}
