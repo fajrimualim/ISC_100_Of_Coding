@@ -1,0 +1,32 @@
+package Day3;
+
+public class Day38 {
+
+    public static void main(String[] args) {
+
+        int[][][] kubus = new int[3][3][3];
+        int angka = 1;
+
+        for (int i = 0; i < kubus.length; i++) {
+            for (int j = 0; j < kubus[i].length; j++) {
+                for (int k = 0; k < kubus[i][j].length; k++) {
+                    kubus[i][j][k] = angka++;
+                }
+            }
+        }
+
+        tampilkanKubus(kubus);
+    }
+
+    private static void tampilkanKubus(int[][][] kubus) {
+        for (int i = 0; i < kubus.length; i++) {
+            for (int j = 0; j < kubus[i].length; j++) {
+                for (int k = 0; k < kubus[i][j].length; k++) {
+                    System.out.print(kubus[i][j][k] + " ");
+                }
+                System.out.println();
+            }
+            System.out.println();
+        }
+    }
+}
