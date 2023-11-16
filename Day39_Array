@@ -1,0 +1,42 @@
+package Day3;
+
+import java.util.Scanner;
+
+public class Day39 {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("");
+        int panjang = sc.nextInt();
+
+        sc.close();
+
+        int[] arr = new int[panjang];
+        //genap
+        System.out.print("[");
+        if (panjang % 2 == 0) {
+            for (int i = 0; i < panjang; i++) {
+                arr[i] = (i + 1) * 2;
+                System.out.print(arr[i]);
+
+                if (i < panjang - 1) {
+                    System.out.print(", ");
+                }
+            }
+            //ganjil
+        } else {
+            for (int i = 0; i < panjang; i++) {
+                arr[i] = i * 2 + 1;
+                System.out.print(arr[i]);
+
+                if (i < panjang - 1) {
+                    System.out.print(", ");
+                }
+            }
+
+            System.out.println("]");
+
+        }
+    }
+}
