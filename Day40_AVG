@@ -1,0 +1,28 @@
+package Day3;
+
+public class Day40 {
+
+    public static void main(String[] args) {
+        int sum = 0;
+        int count = 0;
+        double average;
+
+        int i = 1;
+        while (i <= 100) {
+            if (i % 2 != 0) {
+                sum += i;
+                count++;
+            }
+            i++;
+        }
+
+        if (count > 0) {
+            average = (double) sum / count;
+
+            System.out.println("Jumlah : " + sum);
+            System.out.println("Rata-rata : " + average);
+        } else {
+            System.out.println("tidak terdapat blangan ganjil");
+        }
+    }
+}
